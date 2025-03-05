@@ -85,14 +85,14 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Python'
-    'SQL'
+    'Python',
+    'SQL',
     'JavaScript',
     'Java',
     'C#',
     'React.js',
     'Flask',
-    'FastAPI'
+    'FastAPI',
     'Git',
   ],
   experiences: [
@@ -127,8 +127,8 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Western Governor"'"s University',
-      degree: 'Bachelor"'"s Degree in Computer Science',
+      institution: 'Western Governors University',
+      degree: 'Bachelors Degree in Computer Science',
       from: '2023',
       to: '2025',
     },
