@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 6, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Calculator5329/news-bias-analyzer', 'https://github.com/Calculator5329/portfolio-visualizer', 'Calculator5329/N2K-ComprehensiveSolver', 'Calculator5329/Finance-Dashboard'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: '',
     description: '',
     imageURL: '',
   },
@@ -82,7 +82,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://archive.org/download/ethan-gates-resume-r/Ethan%20Gates%20Resume_R.docx', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -93,6 +93,9 @@ const CONFIG = {
     'React.js',
     'Flask',
     'FastAPI',
+    "Power Bi",
+    "Pandas",
+    "Tensorflow",
     'Git',
   ],
   experiences: [
@@ -139,7 +142,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 0, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
