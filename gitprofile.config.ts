@@ -33,15 +33,15 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       // Keep empty for now
       
-      projects: [/*
+      projects: [
         {
-          title: 'Project Name',
+          title: 'News Bias Analyzer',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This project is an AI-powered web application that classifies news articles based on political bias (Left, Neutral, Right) and authenticity (Fake vs. Real News) using machine learning and OpenAIs embedding API. The deep neural net and application logic were deployed on a FastAPI backend and connected to a basic React frontend, hosted on Vercel.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+            'https://imgur.com/a/n0fMvZx',
+          link: 'https://capstone-frontend-1-calculator5329-ethans-projects-becdb732.vercel.app/',
+        },/*
         {
           title: 'Project Name',
           description:
