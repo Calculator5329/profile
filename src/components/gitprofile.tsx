@@ -230,22 +230,22 @@ const GitProfile = ({ config }: { config: Config }) => {
                         experiences={sanitizedConfig.experiences}
                       />
                     )}
-                    {sanitizedConfig.certifications.length !== 0 && (
-                      <CertificationCard
-                        loading={loading}
-                        certifications={sanitizedConfig.certifications}
-                      />
-                    )}
+                  </div>
+                </div>
+                <div className="lg:col-span-2 col-span-1">
+                  <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
                         educations={sanitizedConfig.educations}
                       />
                     )}
-                  </div>
-                </div>
-                <div className="lg:col-span-2 col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
+                    {sanitizedConfig.certifications.length !== 0 && (
+                      <CertificationCard
+                        loading={loading}
+                        certifications={sanitizedConfig.certifications}
+                      />
+                    )}
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
                         header={sanitizedConfig.projects.github.header}
