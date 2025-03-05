@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Calculator5329/news-bias-analyzer', 'https://github.com/Calculator5329/portfolio-visualizer', 'Calculator5329/N2K-ComprehensiveSolver', 'Calculator5329/Finance-Dashboard'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Calculator5329/news-bias-analyzer', 'Calculator5329/portfolio-visualizer', 'Calculator5329/book-reccomendations-r' , 'Calculator5329/Finance-Dashboard', 'Calculator5329/N2K-ComprehensiveSolver', ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -39,18 +39,18 @@ const CONFIG = {
           description:
             'This project is an AI-powered web application that classifies news articles based on political bias (Left, Neutral, Right) and authenticity (Fake vs. Real News) using machine learning and OpenAIs embedding API. The deep neural net and application logic were deployed on a FastAPI backend and connected to a basic React frontend, hosted on Vercel.',
           imageUrl:
-            'https://imgur.com/a/n0fMvZx',
+            'https://imgur.com/a/aINk6sf',
           link: 'https://capstone-frontend-1-calculator5329-ethans-projects-becdb732.vercel.app/',
-        },/*
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
         },
-      */],
+        {
+          title: 'Book Reccomendation Website',
+          description:
+            'This project uses OpenAIs embedding models and an open-source book review dataset to generate vector representations of books based on their content and themes. These embeddings are indexed using FAISS for fast similarity searches. The backend is deployed on Google Cloud, allowing users to input a book or reading preferences and receive personalized, content-driven recommendations in real time. ',
+          imageUrl:
+            'https://imgur.com/a/vgNdK36',
+          link: 'https://calculator5329.github.io/book-reccomendations-r/',
+        },
+      ],
     },
   },
   seo: {
