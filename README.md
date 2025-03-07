@@ -16,7 +16,7 @@ This portfolio is built upon the GitProfile project by Ariful Alam, which provid
 GitProfile Repository: https://github.com/arifszn/gitprofile  
 Author Website: https://arifszn.com/
 
-# License
+## License
 
 This project inherits the MIT License from the original GitProfile repository.
 
