@@ -11,8 +11,7 @@ The live site is accessible at [calculator5329.github.io](https://calculator5329
 
 ## Acknowledgments
 
-This portfolio is built upon the GitProfile project by Ariful Alam,  
-which provides an easy-to-use template for creating dynamic portfolios.
+This portfolio is built upon the GitProfile project by Ariful Alam, which provides an easy-to-use template for creating dynamic portfolios.
 
 GitProfile Repository: https://github.com/arifszn/gitprofile  
 Author Website: https://arifszn.com/
